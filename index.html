@@ -1,0 +1,1051 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link rel="stylesheet" href="./css/splide.min.css" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./css/style.css" />
+		<title>Skola YouTube</title>
+	</head>
+	<body>
+		<!-- Header -->
+		<header class="site-header">
+			<div class="container">
+				<div class="site-header__content flex items-center space-between">
+					<div class="header--logo">
+						<a href="./index.html">
+							<img src="./assets/images/logo.svg" alt="Header logo" />
+						</a>
+					</div>
+					<div class="header--nav">
+						<span class="menu-trigger mobile-only">
+							<div class="flex flex-col just-center">
+								<span class="first-row"></span>
+								<span class="second-row"></span>
+								<span class="third-row"></span>
+							</div>
+						</span>
+						<nav class="navigation">
+							<ul class="primary-menu flex items-center">
+								<li class="menu-item"><a href="#">Home</a></li>
+								<li class="menu-item menu-item-has-children">
+									<a href="#">Courses</a>
+									<ul class="sub-menu">
+										<li class="menu-item"><a href="#">Web Development</a></li>
+										<li class="menu-item"><a href="#">Web Design</a></li>
+									</ul>
+								</li>
+								<li class="menu-item menu-item-has-children">
+									<a href="#">Pages</a>
+									<ul class="sub-menu">
+										<li class="menu-item"><a href="#">About Us</a></li>
+										<li class="menu-item"><a href="#">Our Mission</a></li>
+									</ul>
+								</li>
+								<li class="menu-item menu-item-has-children">
+									<a href="#">Blog</a>
+									<ul class="sub-menu">
+										<li class="menu-item"><a href="#">Article One</a></li>
+										<li class="menu-item"><a href="#">Article Two</a></li>
+									</ul>
+								</li>
+								<li class="menu-item"><a href="#">Shop</a></li>
+								<li class="menu-item"><a href="#">Contact</a></li>
+							</ul>
+						</nav>
+					</div>
+					<div class="header--actions flex items-center">
+						<div class="actions--icons flex items-center">
+							<div class="search-trigger trigger">
+								<span class="material-symbols-outlined white"> search </span>
+							</div>
+							<div class="user-trigger trigger">
+								<span class="material-symbols-outlined white"> account_circle </span>
+							</div>
+							<div class="cart-trigger trigger">
+								<span class="material-symbols-outlined white"> shopping_bag </span>
+							</div>
+						</div>
+						<div class="actions--button">
+							<a href="#" class="btn btn-white">Get Started</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="header--search none">
+				<div class="container relative flex items-center just-center">
+					<form action="">
+						<input type="text" placeholder="Search..." />
+						<button type="button" class="search-close">&times;</button>
+					</form>
+				</div>
+			</div>
+		</header>
+
+		<!-- Hero -->
+		<section id="top" class="hero relative">
+			<div class="container">
+				<div class="hero__content flex just-center flex-col">
+					<div class="hero__content--text">
+						<h1 class="hero--title text-center">Start Investing in <span>You</span></h1>
+						<p class="hero--text text-center">
+							Technology is bringing a massive wave of evolution on learning<br />
+							things in different ways.
+						</p>
+						<div class="hero--btn flex just-center">
+							<a href="#" class="btn btn-secondary btn-wide">START A FREE TRIAL</a>
+						</div>
+					</div>
+					<div class="hero__content--image">
+						<img src="./assets/images/hero-image.png" alt="Hero image" />
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Categories -->
+		<section class="categories">
+			<div class="container">
+				<div class="categories__content">
+					<h2 class="section-title text-center">Trending Categories</h2>
+					<p>Cum doctus civibus efficiantur in imperdiet deterruisset.</p>
+					<div class="categories--slider">
+						<div class="splide catsSlider" aria-label="Trending categories">
+							<div class="splide__arrows">
+								<button class="splide__arrow splide__arrow--prev">
+									<span class="material-symbols-outlined"> arrow_left_alt </span>
+								</button>
+								<button class="splide__arrow splide__arrow--next">
+									<span class="material-symbols-outlined"> arrow_right_alt </span>
+								</button>
+							</div>
+							<div class="splide__track">
+								<div class="splide__list">
+									<div class="splide__slide">
+										<div class="category">
+											<div class="category--icon">
+												<img src="./assets/images/design.svg" alt="Design" />
+											</div>
+											<h5 class="category--title">Design</h5>
+											<p class="category--text">Over 960 Courses</p>
+										</div>
+									</div>
+
+									<div class="splide__slide">
+										<div class="category">
+											<div class="category--icon">
+												<img src="./assets/images/business.svg" alt="Business" />
+											</div>
+											<h5 class="category--title">Business</h5>
+											<p class="category--text">Over 43 Courses</p>
+										</div>
+									</div>
+
+									<div class="splide__slide">
+										<div class="category">
+											<div class="category--icon">
+												<img src="./assets/images/software-dev.svg" alt="Software development" />
+											</div>
+											<h5 class="category--title">Software development</h5>
+											<p class="category--text">Over 1209 Courses</p>
+										</div>
+									</div>
+
+									<div class="splide__slide">
+										<div class="category">
+											<div class="category--icon">
+												<img src="./assets/images/personal-dev.svg" alt="Personal development" />
+											</div>
+											<h5 class="category--title">Personal Development</h5>
+											<p class="category--text">Over 921 Courses</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Courses -->
+		<section class="courses">
+			<div class="container">
+				<div class="courses__content">
+					<h3 class="section-title text-center">Featured Courses</h3>
+					<p>Discover your perfect program in our courses.</p>
+					<div class="courses--grid flex wrap">
+						<div class="course">
+							<div class="course__content">
+								<div class="course-thumbnail relative">
+									<a href="#">
+										<img src="./assets/images/course-1.png" alt="Course 1" />
+									</a>
+									<span class="course-tag orange">Best Seller</span>
+									<div class="course-author">
+										<img src="./assets/images/author.svg" alt="Author" />
+									</div>
+								</div>
+								<div class="course-text">
+									<a class="course-category" href="#">Photography</a>
+									<h4 class="course-title">
+										<a href="#">Fashion Photography From Professional</a>
+									</h4>
+									<div class="course-rating flex items-center">
+										<div class="stars">
+											<img src="./assets/icons/stars.svg" alt="rating" />
+										</div>
+										<p class="rating-text no-margin">4.87 (3.8k+ reviews)</p>
+									</div>
+									<div class="course-bottom flex space-between">
+										<div class="course-bottom__info flex items-center">
+											<div class="course-lessons flex items-center">
+												<span class="material-symbols-outlined"> local_library </span>
+												<span>5 lessons</span>
+											</div>
+											<div class="course-duration flex items-center">
+												<span class="material-symbols-outlined"> schedule </span>
+												<span>8h 12m</span>
+											</div>
+										</div>
+										<div class="course-bottom__price flex flex-col">
+											<span class="price">$959</span>
+											<span class="on-sale">$415.99</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="course">
+							<div class="course__content">
+								<div class="course-thumbnail relative">
+									<a href="#">
+										<img src="./assets/images/course-2.png" alt="Course 2" />
+									</a>
+									<div class="course-author">
+										<img src="./assets/images/author.svg" alt="Author" />
+									</div>
+								</div>
+								<div class="course-text">
+									<a class="course-category" href="#">Development</a>
+									<h4 class="course-title">
+										<a href="#">The Complete JavaScript Course 2020: Build Real Projects!</a>
+									</h4>
+									<div class="course-rating flex items-center">
+										<div class="stars">
+											<img src="./assets/icons/stars.svg" alt="rating" />
+										</div>
+										<p class="rating-text no-margin">4.87 (3.8k+ reviews)</p>
+									</div>
+									<div class="course-bottom flex space-between">
+										<div class="course-bottom__info flex items-center">
+											<div class="course-lessons flex items-center">
+												<span class="material-symbols-outlined"> local_library </span>
+												<span>5 lessons</span>
+											</div>
+											<div class="course-duration flex items-center">
+												<span class="material-symbols-outlined"> schedule </span>
+												<span>8h 12m</span>
+											</div>
+										</div>
+										<div class="course-bottom__price flex flex-col">
+											<span class="price">$959</span>
+											<span class="on-sale">$21.99</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="course">
+							<div class="course__content">
+								<div class="course-thumbnail relative">
+									<a href="#">
+										<img src="./assets/images/course-3.png" alt="Course 3" />
+									</a>
+									<span class="course-tag purple">Featured</span>
+									<div class="course-author">
+										<img src="./assets/images/author.svg" alt="Author" />
+									</div>
+								</div>
+								<div class="course-text">
+									<a class="course-category" href="#">Design</a>
+									<h4 class="course-title">
+										<a href="#">Learn Figma: User Interface Design Essentials - UI/UX Design</a>
+									</h4>
+									<div class="course-rating flex items-center">
+										<div class="stars">
+											<img src="./assets/icons/stars.svg" alt="rating" />
+										</div>
+										<p class="rating-text no-margin">4.87 (3.8k+ reviews)</p>
+									</div>
+									<div class="course-bottom flex space-between">
+										<div class="course-bottom__info flex items-center">
+											<div class="course-lessons flex items-center">
+												<span class="material-symbols-outlined"> local_library </span>
+												<span>5 lessons</span>
+											</div>
+											<div class="course-duration flex items-center">
+												<span class="material-symbols-outlined"> schedule </span>
+												<span>8h 12m</span>
+											</div>
+										</div>
+										<div class="course-bottom__price flex flex-col">
+											<span class="price">$959</span>
+											<span class="on-sale">$129.99</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="course">
+							<div class="course__content">
+								<div class="course-thumbnail relative">
+									<a href="#">
+										<img src="./assets/images/course-4.png" alt="Course 4" />
+									</a>
+									<div class="course-author">
+										<img src="./assets/images/author.svg" alt="Author" />
+									</div>
+								</div>
+								<div class="course-text">
+									<a class="course-category" href="#">Development</a>
+									<h4 class="course-title">
+										<a href="#">The Complete Financial Analyst Course 2023</a>
+									</h4>
+									<div class="course-rating flex items-center">
+										<div class="stars">
+											<img src="./assets/icons/stars.svg" alt="rating" />
+										</div>
+										<p class="rating-text no-margin">4.87 (3.8k+ reviews)</p>
+									</div>
+									<div class="course-bottom flex space-between">
+										<div class="course-bottom__info flex items-center">
+											<div class="course-lessons flex items-center">
+												<span class="material-symbols-outlined"> local_library </span>
+												<span>5 lessons</span>
+											</div>
+											<div class="course-duration flex items-center">
+												<span class="material-symbols-outlined"> schedule </span>
+												<span>8h 12m</span>
+											</div>
+										</div>
+										<div class="course-bottom__price flex flex-col">
+											<span class="price">$959</span>
+											<span class="on-sale">$21.99</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="course">
+							<div class="course__content">
+								<div class="course-thumbnail relative">
+									<a href="#">
+										<img src="./assets/images/course-5.png" alt="Course 5" />
+									</a>
+									<div class="course-author">
+										<img src="./assets/images/author.svg" alt="Author" />
+									</div>
+								</div>
+								<div class="course-text">
+									<a class="course-category" href="#">Development</a>
+									<h4 class="course-title">
+										<a href="#">Guide to Front-End Web Development and Design</a>
+									</h4>
+									<div class="course-rating flex items-center">
+										<div class="stars">
+											<img src="./assets/icons/stars.svg" alt="rating" />
+										</div>
+										<p class="rating-text no-margin">4.87 (3.8k+ reviews)</p>
+									</div>
+									<div class="course-bottom flex space-between">
+										<div class="course-bottom__info flex items-center">
+											<div class="course-lessons flex items-center">
+												<span class="material-symbols-outlined"> local_library </span>
+												<span>5 lessons</span>
+											</div>
+											<div class="course-duration flex items-center">
+												<span class="material-symbols-outlined"> schedule </span>
+												<span>8h 12m</span>
+											</div>
+										</div>
+										<div class="course-bottom__price flex flex-col">
+											<span class="price">$959</span>
+											<span class="on-sale">$21.99</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="course">
+							<div class="course__content">
+								<div class="course-thumbnail relative">
+									<a href="#">
+										<img src="./assets/images/course-6.png" alt="Course 6" />
+									</a>
+									<span class="course-tag secondary">Hot & New</span>
+									<div class="course-author">
+										<img src="./assets/images/author.svg" alt="Author" />
+									</div>
+								</div>
+								<div class="course-text">
+									<a class="course-category" href="#">Development</a>
+									<h4 class="course-title">
+										<a href="#">The Complete Cyber Security Course : Hackers Exposed!</a>
+									</h4>
+									<div class="course-rating flex items-center">
+										<div class="stars">
+											<img src="./assets/icons/stars.svg" alt="rating" />
+										</div>
+										<p class="rating-text no-margin">4.87 (3.8k+ reviews)</p>
+									</div>
+									<div class="course-bottom flex space-between">
+										<div class="course-bottom__info flex items-center">
+											<div class="course-lessons flex items-center">
+												<span class="material-symbols-outlined"> local_library </span>
+												<span>5 lessons</span>
+											</div>
+											<div class="course-duration flex items-center">
+												<span class="material-symbols-outlined"> schedule </span>
+												<span>8h 12m</span>
+											</div>
+										</div>
+										<div class="course-bottom__price flex flex-col">
+											<span class="price">$959</span>
+											<span class="on-sale">$21.99</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="section-button flex just-center">
+						<a href="#" class="btn-link">
+							Browse All
+							<span class="material-symbols-outlined"> chevron_right </span></a
+						>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Events -->
+		<section class="stats">
+			<div class="container">
+				<div class="stats__content">
+					<div class="stats-video">
+						<video controls poster="./assets/images/stats-image.jpg">
+							<source src="./assets/videos/stats-video.mp4" />
+						</video>
+					</div>
+					<div class="stats-stats flex items-center">
+						<div class="stats--stat">
+							<p class="stat-number">749</p>
+							<p class="stat-text">Creative Events</p>
+						</div>
+						<div class="stats--stat">
+							<p class="stat-number">853</p>
+							<p class="stat-text">Skilled Tutors</p>
+						</div>
+						<div class="stats--stat">
+							<p class="stat-number">28k+</p>
+							<p class="stat-text">Online Courses</p>
+						</div>
+						<div class="stats--stat">
+							<p class="stat-number">53k+</p>
+							<p class="stat-text">People Worldwide</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Teacher -->
+		<section class="teacher">
+			<div class="container">
+				<div class="teacher__content">
+					<h3 class="section-title text-center white">Luisao Alberto</h3>
+					<p class="teacher-subtitle text-center white">Teacher of Week</p>
+					<p class="text-narrow white text-center">
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+						has been the industry's standard dummy text ever since the 1500s, when an unknown
+						printer took a galley of type and scrambled it to make a type specimen book. It has
+						survived not only five centuries, but also the leap into electronic typesetting,
+						remaining essentially unchanged.
+					</p>
+					<div class="section-button flex just-center">
+						<a href="#" class="btn-link white"
+							>Browse All <span class="material-symbols-outlined"> chevron_right </span></a
+						>
+					</div>
+					<div class="teacher-courses--slider">
+						<div class="splide teacherCoursesSlider" aria-label="Teacher courses">
+							<div class="splide__track">
+								<div class="splide__list">
+									<div class="splide__slide">
+										<div class="teacher--course">
+											<div class="teacher--course__content">
+												<div class="teacher-course__thumbnail relative">
+													<a href="#">
+														<img
+															src="./assets/images/teacher-course-1.jpg"
+															alt="Teacher course 1"
+														/>
+													</a>
+													<span class="teacher-course__price">$21.99</span>
+												</div>
+												<a href="#" class="teacher-course__category">Development</a>
+												<h5 class="teacher-course__title">
+													<a href="#">The Complete JavaScript Course 2020: Real Projects!</a>
+												</h5>
+												<div class="teacher-course__bottom flex items-center space-between">
+													<div class="teacher-course__lessons flex items-center">
+														<span class="material-symbols-outlined"> local_library </span>
+														<span>5 lessons</span>
+													</div>
+													<div class="teacher-course__rating">
+														<img src="./assets/icons/stars.svg" alt="stars rating" />
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="splide__slide">
+										<div class="teacher--course">
+											<div class="teacher--course__content">
+												<div class="teacher-course__thumbnail relative">
+													<a href="#">
+														<img
+															src="./assets/images/teacher-course-2.jpg"
+															alt="Teacher course 2"
+														/>
+													</a>
+													<span class="teacher-course__price">$21.99</span>
+												</div>
+												<a href="#" class="teacher-course__category">Marketing</a>
+												<h5 class="teacher-course__title">
+													<a href="#">Productivity and Time Management for the...</a>
+												</h5>
+												<div class="teacher-course__bottom flex items-center space-between">
+													<div class="teacher-course__lessons flex items-center">
+														<span class="material-symbols-outlined"> local_library </span>
+														<span>5 lessons</span>
+													</div>
+													<div class="teacher-course__rating">
+														<img src="./assets/icons/stars.svg" alt="stars rating" />
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="splide__slide">
+										<div class="teacher--course">
+											<div class="teacher--course__content">
+												<div class="teacher-course__thumbnail relative">
+													<a href="#">
+														<img
+															src="./assets/images/teacher-course-3.jpg"
+															alt="Teacher course 3"
+														/>
+													</a>
+													<span class="teacher-course__price">$21.99</span>
+												</div>
+												<a href="#" class="teacher-course__category">Personal Development</a>
+												<h5 class="teacher-course__title">
+													<a href="#">Learn Ethical Hacking From Scratch</a>
+												</h5>
+												<div class="teacher-course__bottom flex items-center space-between">
+													<div class="teacher-course__lessons flex items-center">
+														<span class="material-symbols-outlined"> local_library </span>
+														<span>5 lessons</span>
+													</div>
+													<div class="teacher-course__rating">
+														<img src="./assets/icons/stars.svg" alt="stars rating" />
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="splide__slide">
+										<div class="teacher--course">
+											<div class="teacher--course__content">
+												<div class="teacher-course__thumbnail relative">
+													<a href="#">
+														<img
+															src="./assets/images/teacher-course-4.jpg"
+															alt="Teacher course 4"
+														/>
+													</a>
+													<span class="teacher-course__price">$21.99</span>
+												</div>
+												<a href="#" class="teacher-course__category">Photography</a>
+												<h5 class="teacher-course__title">
+													<a href="#">Learning Final Cut Pro X - Video Editing Mastery</a>
+												</h5>
+												<div class="teacher-course__bottom flex items-center space-between">
+													<div class="teacher-course__lessons flex items-center">
+														<span class="material-symbols-outlined"> local_library </span>
+														<span>5 lessons</span>
+													</div>
+													<div class="teacher-course__rating">
+														<img src="./assets/icons/stars.svg" alt="stars rating" />
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="splide__slide">
+										<div class="teacher--course">
+											<div class="teacher--course__content">
+												<div class="teacher-course__thumbnail relative">
+													<a href="#">
+														<img
+															src="./assets/images/teacher-course-1.jpg"
+															alt="Teacher course 1"
+														/>
+													</a>
+													<span class="teacher-course__price">$21.99</span>
+												</div>
+												<a href="#" class="teacher-course__category">Development</a>
+												<h5 class="teacher-course__title">
+													<a href="#">The Complete JavaScript Course 2020: Real Projects!</a>
+												</h5>
+												<div class="teacher-course__bottom flex items-center space-between">
+													<div class="teacher-course__lessons flex items-center">
+														<span class="material-symbols-outlined"> local_library </span>
+														<span>5 lessons</span>
+													</div>
+													<div class="teacher-course__rating">
+														<img src="./assets/icons/stars.svg" alt="stars rating" />
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="splide__slide">
+										<div class="teacher--course">
+											<div class="teacher--course__content">
+												<div class="teacher-course__thumbnail relative">
+													<a href="#">
+														<img
+															src="./assets/images/teacher-course-2.jpg"
+															alt="Teacher course 2"
+														/>
+													</a>
+													<span class="teacher-course__price">$21.99</span>
+												</div>
+												<a href="#" class="teacher-course__category">Marketing</a>
+												<h5 class="teacher-course__title">
+													<a href="#">Productivity and Time Management for the...</a>
+												</h5>
+												<div class="teacher-course__bottom flex items-center space-between">
+													<div class="teacher-course__lessons flex items-center">
+														<span class="material-symbols-outlined"> local_library </span>
+														<span>5 lessons</span>
+													</div>
+													<div class="teacher-course__rating">
+														<img src="./assets/icons/stars.svg" alt="stars rating" />
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="splide__slide">
+										<div class="teacher--course">
+											<div class="teacher--course__content">
+												<div class="teacher-course__thumbnail relative">
+													<a href="#">
+														<img
+															src="./assets/images/teacher-course-3.jpg"
+															alt="Teacher course 3"
+														/>
+													</a>
+													<span class="teacher-course__price">$21.99</span>
+												</div>
+												<a href="#" class="teacher-course__category">Personal Development</a>
+												<h5 class="teacher-course__title">
+													<a href="#">Learn Ethical Hacking From Scratch</a>
+												</h5>
+												<div class="teacher-course__bottom flex items-center space-between">
+													<div class="teacher-course__lessons flex items-center">
+														<span class="material-symbols-outlined"> local_library </span>
+														<span>5 lessons</span>
+													</div>
+													<div class="teacher-course__rating">
+														<img src="./assets/icons/stars.svg" alt="stars rating" />
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="splide__slide">
+										<div class="teacher--course">
+											<div class="teacher--course__content">
+												<div class="teacher-course__thumbnail relative">
+													<a href="#">
+														<img
+															src="./assets/images/teacher-course-4.jpg"
+															alt="Teacher course 4"
+														/>
+													</a>
+													<span class="teacher-course__price">$21.99</span>
+												</div>
+												<a href="#" class="teacher-course__category">Photography</a>
+												<h5 class="teacher-course__title">
+													<a href="#">Learning Final Cut Pro X - Video Editing Mastery</a>
+												</h5>
+												<div class="teacher-course__bottom flex items-center space-between">
+													<div class="teacher-course__lessons flex items-center">
+														<span class="material-symbols-outlined"> local_library </span>
+														<span>5 lessons</span>
+													</div>
+													<div class="teacher-course__rating">
+														<img src="./assets/icons/stars.svg" alt="stars rating" />
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="splide__slide">
+										<div class="teacher--course">
+											<div class="teacher--course__content">
+												<div class="teacher-course__thumbnail relative">
+													<a href="#">
+														<img
+															src="./assets/images/teacher-course-1.jpg"
+															alt="Teacher course 1"
+														/>
+													</a>
+													<span class="teacher-course__price">$21.99</span>
+												</div>
+												<a href="#" class="teacher-course__category">Development</a>
+												<h5 class="teacher-course__title">
+													<a href="#">The Complete JavaScript Course 2020: Real Projects!</a>
+												</h5>
+												<div class="teacher-course__bottom flex items-center space-between">
+													<div class="teacher-course__lessons flex items-center">
+														<span class="material-symbols-outlined"> local_library </span>
+														<span>5 lessons</span>
+													</div>
+													<div class="teacher-course__rating">
+														<img src="./assets/icons/stars.svg" alt="stars rating" />
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="splide__slide">
+										<div class="teacher--course">
+											<div class="teacher--course__content">
+												<div class="teacher-course__thumbnail relative">
+													<a href="#">
+														<img
+															src="./assets/images/teacher-course-2.jpg"
+															alt="Teacher course 2"
+														/>
+													</a>
+													<span class="teacher-course__price">$21.99</span>
+												</div>
+												<a href="#" class="teacher-course__category">Marketing</a>
+												<h5 class="teacher-course__title">
+													<a href="#">Productivity and Time Management for the...</a>
+												</h5>
+												<div class="teacher-course__bottom flex items-center space-between">
+													<div class="teacher-course__lessons flex items-center">
+														<span class="material-symbols-outlined"> local_library </span>
+														<span>5 lessons</span>
+													</div>
+													<div class="teacher-course__rating">
+														<img src="./assets/icons/stars.svg" alt="stars rating" />
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="splide__slide">
+										<div class="teacher--course">
+											<div class="teacher--course__content">
+												<div class="teacher-course__thumbnail relative">
+													<a href="#">
+														<img
+															src="./assets/images/teacher-course-3.jpg"
+															alt="Teacher course 3"
+														/>
+													</a>
+													<span class="teacher-course__price">$21.99</span>
+												</div>
+												<a href="#" class="teacher-course__category">Personal Development</a>
+												<h5 class="teacher-course__title">
+													<a href="#">Learn Ethical Hacking From Scratch</a>
+												</h5>
+												<div class="teacher-course__bottom flex items-center space-between">
+													<div class="teacher-course__lessons flex items-center">
+														<span class="material-symbols-outlined"> local_library </span>
+														<span>5 lessons</span>
+													</div>
+													<div class="teacher-course__rating">
+														<img src="./assets/icons/stars.svg" alt="stars rating" />
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="splide__slide">
+										<div class="teacher--course">
+											<div class="teacher--course__content">
+												<div class="teacher-course__thumbnail relative">
+													<a href="#">
+														<img
+															src="./assets/images/teacher-course-4.jpg"
+															alt="Teacher course 4"
+														/>
+													</a>
+													<span class="teacher-course__price">$21.99</span>
+												</div>
+												<a href="#" class="teacher-course__category">Photography</a>
+												<h5 class="teacher-course__title">
+													<a href="#">Learning Final Cut Pro X - Video Editing Mastery</a>
+												</h5>
+												<div class="teacher-course__bottom flex items-center space-between">
+													<div class="teacher-course__lessons flex items-center">
+														<span class="material-symbols-outlined"> local_library </span>
+														<span>5 lessons</span>
+													</div>
+													<div class="teacher-course__rating">
+														<img src="./assets/icons/stars.svg" alt="stars rating" />
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- News -->
+		<section class="news">
+			<div class="container">
+				<div class="news__content">
+					<h3 class="section-title text-center">Latest News</h3>
+					<p>Discover your perfect program in our courses.</p>
+					<div class="news__articles flex just-center">
+						<div class="article">
+							<div class="article-thumbnail relative">
+								<a href="#">
+									<img src="./assets/images/article-1.jpg" alt="Article 1" />
+								</a>
+								<span class="article-category">Figma</span>
+							</div>
+							<div class="article-meta flex items-center">
+								<div class="article-meta--author flex items-center">
+									<span class="material-symbols-outlined"> person </span>
+									<span>Jack Wilson</span>
+								</div>
+								<div class="article-meta--date flex items-center">
+									<span class="material-symbols-outlined"> calendar_today </span>
+									<span>06 April, 2023</span>
+								</div>
+							</div>
+							<h4 class="article-title">
+								<a href="#">The Best Places to Start Your Travel</a>
+							</h4>
+						</div>
+
+						<div class="article">
+							<div class="article-thumbnail relative">
+								<a href="#">
+									<img src="./assets/images/article-2.jpg" alt="Article 2" />
+								</a>
+								<span class="article-category">Adobe XD</span>
+							</div>
+							<div class="article-meta flex items-center">
+								<div class="article-meta--author flex items-center">
+									<span class="material-symbols-outlined"> person </span>
+									<span>Jack Wilson</span>
+								</div>
+								<div class="article-meta--date flex items-center">
+									<span class="material-symbols-outlined"> calendar_today </span>
+									<span>06 April, 2023</span>
+								</div>
+							</div>
+							<h4 class="article-title">
+								<a href="#">An Indigenous Anatolian Syllabic Script From 3500 Years Ago</a>
+							</h4>
+						</div>
+
+						<div class="article">
+							<div class="article-thumbnail relative">
+								<a href="#">
+									<img src="./assets/images/article-3.jpg" alt="Article 3" />
+								</a>
+								<span class="article-category">Photoshop</span>
+							</div>
+							<div class="article-meta flex items-center">
+								<div class="article-meta--author flex items-center">
+									<span class="material-symbols-outlined"> person </span>
+									<span>Jack Wilson</span>
+								</div>
+								<div class="article-meta--date flex items-center">
+									<span class="material-symbols-outlined"> calendar_today </span>
+									<span>06 April, 2023</span>
+								</div>
+							</div>
+							<h4 class="article-title">
+								<a href="#">World Heath Day in LA 2020</a>
+							</h4>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Newsletter -->
+		<section class="newsletter">
+			<div class="container">
+				<div class="newsletter__content">
+					<h3 class="section-title text-center">Subscribe Our Newsletter</h3>
+					<p>
+						Your download should start automatically, if not Click here. Should I give up, huh?.
+					</p>
+					<div class="newsletter__form flex just-center">
+						<form action="">
+							<input type="email" placeholder="Enter your email" />
+							<button class="btn-submit" type="submit">Subscribe</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Footer -->
+		<footer class="site-footer relative">
+			<div class="container">
+				<div class="footer">
+					<div class="footer-columns flex space-between">
+						<div class="footer-col wide">
+							<div class="footer-logo">
+								<img src="./assets/images/footer-logo.png" alt="Footer logo" />
+							</div>
+							<div class="footer-info">
+								<p>
+									329 Queensberry Street, North Melbourne VIC 3051, Australia.<br />
+									<a href="tel:1234567890">123 456 7890</a>
+									<a href="mailto:support@skola.com">support@skola.com</a>
+								</p>
+							</div>
+							<div class="footer-socials flex items-center">
+								<a href="https://facebook.com/" target="_blank">
+									<img src="./assets/icons/facebook.svg" alt="Facebook" />
+								</a>
+								<a href="https://twitter.com/" target="_blank">
+									<img src="./assets/icons/twitter.svg" alt="Twitter" />
+								</a>
+								<a href="https://instagram.com/" target="_blank">
+									<img src="./assets/icons/instagram.svg" alt="Instagram" />
+								</a>
+								<a href="https://linkedin.com/" target="_blank">
+									<img src="./assets/icons/linkedin.svg" alt="LinkedIn" />
+								</a>
+							</div>
+						</div>
+						<div class="footer-col">
+							<h5 class="footer-col__title">Our Company</h5>
+							<ul class="links">
+								<li><a href="#">Our Company</a></li>
+								<li><a href="#">About Us</a></li>
+								<li><a href="#">Contact Us</a></li>
+								<li><a href="#">Community</a></li>
+								<li><a href="#">Student Perks</a></li>
+								<li><a href="#">Blog</a></li>
+								<li><a href="#">Affiliate Program</a></li>
+								<li><a href="#">Careers</a></li>
+							</ul>
+						</div>
+						<div class="footer-col">
+							<h5 class="footer-col__title">Topics</h5>
+							<ul class="links">
+								<li><a href="#">HTML</a></li>
+								<li><a href="#">CSS</a></li>
+								<li><a href="#">Design</a></li>
+								<li><a href="#">JavaScript</a></li>
+								<li><a href="#">Ruby</a></li>
+								<li><a href="#">PHP</a></li>
+								<li><a href="#">Android</a></li>
+								<li><a href="#">Development Tools</a></li>
+								<li><a href="#">Business</a></li>
+							</ul>
+						</div>
+						<div class="footer-col">
+							<h5 class="footer-col__title">Tracks</h5>
+							<ul class="links">
+								<li><a href="#">Web Design</a></li>
+								<li><a href="#">Web Development</a></li>
+								<li><a href="#">Rails Development</a></li>
+								<li><a href="#">PHP Development</a></li>
+								<li><a href="#">Android Development</a></li>
+								<li><a href="#">Starting a Business</a></li>
+							</ul>
+						</div>
+						<div class="footer-col">
+							<h5 class="footer-col__title">Support</h5>
+							<ul class="links">
+								<li><a href="#">Documentation</a></li>
+								<li><a href="#">Forums</a></li>
+								<li><a href="#">Language Packs</a></li>
+								<li><a href="#">Release Status</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="footer-bottom flex items-center space-between">
+					<p class="copyright no-margin">Copyright © 2020 CreativeLayers. All Right Reserved.</p>
+					<div class="links flex items-center">
+						<a href="#">Home</a>
+						<a href="#">Site Map</a>
+						<a href="#">Privacy policy</a>
+						<a href="#">Web Use Policy</a>
+						<a href="#">Cookie Policy</a>
+					</div>
+				</div>
+			</div>
+			<a href="#top" class="back-to-top">
+				<span class="material-symbols-outlined"> expand_less </span>
+			</a>
+		</footer>
+
+		<!-- Scripts -->
+		<script src="./js/splide.min.js"></script>
+		<script src="./js/app.js"></script>
+	</body>
+</html>
